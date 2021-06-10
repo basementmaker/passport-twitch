@@ -1,0 +1,55 @@
+{
+  "name": "@basementmaker/passport-twitch",
+  "version": "1.1.0",
+  "description": "Twitch (OAuth) authentication strategies for Passport.",
+  "keywords": [
+    "passport",
+    "twitch",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth",
+    "oauth2",
+    "strategy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basementmaker/passport-twitch.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/basementmaker/passport-twitch/issues"
+  },
+  "author": {
+    "name": "basementmaker",
+    "url": "http://www.basementmaker.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-twitch",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "0.2.x",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "basementmaker"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/basementmaker/passport-twitch"
+}
